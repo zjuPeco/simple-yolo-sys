@@ -8,6 +8,8 @@ Rust FFI bindings for [shouxieai/tensorRT_Pro/example-simple_yolo](https://githu
 
 You can use this lib to call yolov5-tensorrt from rust.
 
+[中文博客](http://t.csdn.cn/MmXA3)
+
 # Instructions
 
 ---
@@ -72,4 +74,5 @@ RUST_BACKTRACE=1 cargo test test_run_engine --lib -- --nocapture
 ---
 
 [1] [https://github.com/shouxieai/tensorRT_Pro](https://github.com/shouxieai/tensorRT_Pro)
+
 [2] [https://github.com/alianse777/darknet-sys-rust](https://github.com/alianse777/darknet-sys-rust)
