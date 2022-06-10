@@ -1,7 +1,5 @@
 # simple-yolo-sys
 
----
-
 Rust FFI bindings for [shouxieai/tensorRT_Pro/example-simple_yolo](https://github.com/shouxieai/tensorRT_Pro/tree/main/example-simple_yolo). This is an example of creating an rust wrapper for [shouxieai/tensorRT_Pro](https://github.com/shouxieai/tensorRT_Pro/tree/main/). More idiomatic rust bindings could then be developed on top of this.
 
 [libyolo](./libyolo/) is modified from [shouxieai/tensorRT_Pro/example-simple_yolo](https://github.com/shouxieai/tensorRT_Pro/tree/main/example-simple_yolo).
@@ -11,8 +9,6 @@ You can use this lib to call yolov5-tensorrt from rust.
 [中文博客](http://t.csdn.cn/MmXA3)
 
 # Instructions
-
----
 
 ## 1. get docker environment
 
@@ -70,8 +66,6 @@ RUST_BACKTRACE=1 cargo test test_run_engine --lib -- --nocapture
 ```
 
 # Reference
-
----
 
 [1] [https://github.com/shouxieai/tensorRT_Pro](https://github.com/shouxieai/tensorRT_Pro)
 
