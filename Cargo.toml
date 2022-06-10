@@ -1,0 +1,16 @@
+[package]
+name = "simple-yolo-sys"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+anyhow = "1.0"
+bindgen = "0.59.2"
+cmake = "0.1.48"
+lazy_static = "1.4.0"
+
+[dependencies]
+opencv = {version= "0.61.1", default-features=false, features=["clang-runtime", "imgcodecs", "imgproc", "videoio"]}
