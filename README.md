@@ -6,7 +6,7 @@ Rust FFI bindings for [shouxieai/tensorRT_Pro/example-simple_yolo](https://githu
 
 You can use this lib to call yolov5-tensorrt from rust.
 
-[中文博客](http://t.csdn.cn/MmXA3)
+[中文博客](https://blog.csdn.net/zjuPeco/article/details/125221145)
 
 # Instructions
 
